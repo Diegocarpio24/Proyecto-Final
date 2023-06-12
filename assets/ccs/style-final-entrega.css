@@ -1,0 +1,29 @@
+body{ 
+    /*se usa para toda la pagina la familia de Open Sans*/
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+nav { /* se usa para toda la barra de navegación el color destacado*/
+    background-color: rgb(20, 53, 104);
+}
+
+#hero{ /*Se usa el llamado de la clase al id para enviar una imagen de fondo en el main o sección informativa principal*/
+    background-image: url("../img/ingenieria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+
+  section img { /*se configura las dimensiones de la imagen a ser mostrada*/
+    width: 300px;
+    height: auto;
+}
+
+#PortFolio { 
+    background-color: #ff7e36;
+}
+
+footer{ /*Se le da color al footer*/
+    background-color: rgb(20, 53, 104);
+}

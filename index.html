@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/518a489c88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/ccs/style-final-entrega.css">
+    <title>Desafio final</title>
+
+</head>
+    
+
+<body>
+
+        <nav class="navbar navbar-expand-lg fixed-top"> <!--Inicio de la etiqueta nav para armar el bloque de nuestra barra de navegación de nuestro CV-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <p class="fw-light ; text-light ; ms-3 my-0">CV - Diego Carpio</p>
+                </a>
+                <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 me-md-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">
+                                <p class="fw-light ; text-light ; mt-2 my-0">Acerca de mi</p> 
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#study">
+                                <p class="fw-light ; text-light ; mt-2 my-0">Estudios</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">
+                                <p class="fw-light ; text-light ; mt-2 my-0">Experiencia</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#PortFolio">
+                                <p class="fw-light ; text-light ; mt-2 my-0">Portafolio</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        
+    <section id="hero" class="text-light text-end py-5 mt-5"> <!--Etiqueta main se utiliza para colocar imagen de fondo y a su vez colocar un texto sobre imagen y botones de los cuales uno me direcciona al linkedin y otro a contactame-->
+        <div class="container">
+            <div class="ms-md-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold mb-5">
+                    Futuro
+                    <span class="d-block">Programador web</span> 
+                </h1>
+                    <p class="mb-5">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
+                         dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
+                         mollitia inventore provident labore voluptatum nemo.
+                    </p>
+                <div> 
+                    <!--se crea hipervinculo con la etiqueta "a" para que rediriga al linkedind y a nuestro git--> 
+                    <a class="btn btn-outline-info ; btn-lg ; text-light ; m-1" href="https://www.linkedin.com/in/diego-saul-carpio-p%C3%A9rez-31b824159/" target="_blank" role="button">Linkedin</a>
+                    <a class="btn btn-lg ; btn-outline-info ; text-light m-1" href="https://github.com/Diegocarpio24" target="_blank" role="button">Github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about-us" class="py-5">
+        <!-- inicio de sección acerca de mi, donde se busca colocar un texto descriptor y una imagen justificando para que quede todo visualmente bien ordenado -->
+        <div class="d-flex align-items-center justify-content-center mb-5">
+                <h2 class="display-6 fw-medium">
+                    Acerca de mi
+                    <i class="fa-regular fa-user" style="font-size: 2rem;"></i>
+                </h2>          
+        </div>
+        
+        <div class="row justify-content-around align-items-center">
+            <div class="col-md-4">
+                <p class="fw-light fs-6 lh-lg" style="text-align: justify;">
+                    Soy un ingeniero informático con más de 5 años de experiencia en soporte IT, atención al cliente y gestión de incidencias. Actualmente, estoy ampliando mis conocimientos en desarrollo web, especialmente en HTML5 y CSS. Busco aplicar mis habilidades y seguir creciendo profesionalmente. Tengo experiencia en resolver problemas técnicos, comunicación efectiva y colaboración en equipo. Mi enfoque en el desarrollo web se basa en interfaces intuitivas y atractivas, priorizando la usabilidad y experiencia del usuario. Soy proactivo, orientado a resultados y estoy emocionado por enfrentar nuevos desafíos.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="./assets/img/Diego.jpg" class="rounded float m-lg-3"  alt="Foto tipo carnet">
+            </div>
+        </div>
+    </section>
+
+    <section id="study" class="py-5">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+                <h2 class="display-6 fw-medium">
+                    Estudios
+                    <i class="fa-solid fa-graduation-cap" style="font-size: 2rem;"></i>
+                </h2>
+            </div>
+
+                <div class="text-center">
+                    <div class="fw-light text-dark fs-4">
+                        Curso de programación en Academia Desafio Latam 2023 (En Curso).
+                    </div>
+                    <div class="fw-light text-dark fs-4">
+                        Titutlado como Ingeniero en Informática. Colegio Universitario de Caracas. Desde 2013 al 2017.
+                    </div>
+                </div>    
+        </div>
+        
+    </section>
+
+    <section id="experience" class="py-5 bg-info-subtle">
+        <!-- seccion de experiencias, se crea para colocar icono y sección para texto y contenido de este bloque -->
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center mb-4">
+                <h2 class="display-6 fw-medium">
+                    Experiencias
+                    <i class="fa-solid fa-user-tie" style="font-size: 2rem;"></i>
+                </h2>
+            </div>
+            
+        <div class="row">
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <!-- primera tarjeta para colocar información de empleo -->
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Toteat - Software Gatronomico<br> Marzo 2021 - Actualidad</h5>
+                        <p class="card-text fw-light" style="text-align: justify;">
+                            Agente de soporte senior, donde presto apoyo y brindo ayuda al cliente en sus requerimientos, dudas y problematica. Todo esto en apoyo por medio de plataforma de chat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-4 py-2">
+                <div class="card">
+                    <!-- segunda carta donde se coloca información de experiencia -->
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Digitador - DgCode<br> Abril 2020 - Agosto 2020</h5>
+                        <p class="card-text fw-light"  style="text-align: justify";>
+                            Me desempeñaba como digitador de distintos productos para una plataforma Gamer de venta online, basicamente era cargar y actualizar stock de productos e inventario.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-4 py-2">
+                    <div class="card">
+                        <!-- tercera carta para colocar información de experiencias -->
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Agente de soporte - GalaIt <br> Septiembre 2016 - Enero 2018
+                            </h5>
+                                <p class="card-text fw-light" style="text-align: justify";>
+                                    Como agente de soporte, estaba encargado de brindar apoyo al cliente via tickets y vía telefonica, adicional a esto era quien compraba dominios y asignaba el storage de hosting. 
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+   
+    <section id="PortFolio" class="py-5 px-4">
+        <!-- seccion de Portafolio, se crea para colocar icono y sección para texto y contenido de este bloque de inicio del portafolio-->
+        <div class="d-flex align-items-center justify-content-center mb-4">
+            <h2 class="display-6 fw-medium">
+                Mi Portafolio
+                <i class="fa-solid fa-briefcase" style="font-size: 2rem;"></i>
+            </h2>
+        </div>
+
+            <div class="row py-4 gx-4 gy-4">
+                <div class="col-xs-10 col-sm-4 col-md-3">
+                    <div class="card" style="height: 100%;">
+                        <img src="./assets/img/entrega-1-cv.png" class="card-img-top" alt="foto primer cv">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: 500;">Primera Clase - CV
+                                </h5>
+                                <p class="card-text" style="font-weight: 300; text-align: justify;">Se desarrollo un primer desafio, creando nuestro primer CV con HTML puro.</p>
+                                <a href="#" class="btn btn-primary ; text-light m-1" target="_blank" role="button">Visitar Página</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-10 col-sm-4 col-md-3">
+                    <div class="card" style="height: 100%;">
+                        <img src="./assets/img/entrega-3-iguanas.png" class="card-img-top" alt="Captura de pantalla de la tercera clase hecha para desafio latam">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: 500;">Tercera Clase - Iguanas</h5>
+                                <p class="card-text" style="font-weight: 300; text-align: justify;">Se creo una landing page para aprender etiquetas semanticas para diseñar la iguanas pages.</p>
+                                <a href="#" class="btn btn-primary ; text-light m-1" target="_blank" role="button">Visitar Página</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-10 col-sm-4 col-md-3">
+                    <div class="card" style="height: 100%;">
+                        <img src="./assets/img/entrega-4-cuppon-2.png" class="card-img-top" alt="Captura de pantalla de pagina de cuppon">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: 500;">Cuarta Clase - Cuppon</h5>
+                                <p class="card-text" style="font-weight: 300; text-align: justify;">Se desarrollo una pagina de manera responsive para que se acople a diferentes pantalla.</p>
+                                <a href="#" class="btn btn-primary text-light m-1" target="_blank" role="button">Visitar Página</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-9 col-sm-4 col-md-3">
+                    <div class="card" style="height: 100%;">
+                        <img src="./assets/img/entrega-5-2ergit.png" class="card-img-top" alt="Imagen 4 de la clase 5 del curso">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: 500;">Quinta Clase - Github </h5>
+                                <p class="card-text" style="font-weight: 300; text-align: justify;">Se aprendio a manejar la consola de git y a hacer commits y fork en esta clase en Github.</p>
+                                <a href="#" class="btn btn-primary text-light m-1" target="_blank" role="button">Visitar Página</a>
+                            </div>
+                    </div>
+                </div>
+    </section>
+
+    <footer class="text-center text-light p-3">
+        <p class="mb-0" style="font-weight: 300;">Diego Carpio ©2023. Futuro Desarrollador Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
